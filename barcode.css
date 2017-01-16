@@ -1,5 +1,23 @@
-body{
-  width: 100%;
-  background-image: url("site grafisch design-01.png");
-  background-size: cover;
+@font-face {
+    font-family: beer;
+    src: url(Cassannet.otf);
+}
+
+
+.logo{
+  width: 100px;
+  display: block;
+  margin: 20px auto;
+}
+
+.title{
+  font-family: beer;
+}
+.big, .nav{
+text-align: center;
+color: #CE5B53;
+}
+
+p{
+  text-align: center;
 }
