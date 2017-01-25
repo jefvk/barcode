@@ -27,24 +27,42 @@ color: white;
 p{
   text-align: justify;
 }
-
-.link{
-  display: block;
-  margin-bottom: 20px;
+.navbar-default{
+  border:none;
+  background-color: white;
+  background-image: none;
+  box-shadow: none;
+}
+.navbar-default .navbar-nav>li>a {
   color: #CE5B53;
-  padding: 10px;
   font-weight: bold;
-}
-.link:hover, .link:focus{
-  background: #CE5B53;
-  text-decoration: none;
-  color: white;
+  text-shadow: none;
 }
 
-.line{
-  border-bottom: 2px solid whitesmoke;
-  margin-bottom: 20px;
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  background: #CE5B53;
 }
+
+ul.nav.navbar-nav{
+  width: 100%;
+}
+
+button.navbar-toggle{
+border: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #CE5B53;
+}
+.navbar-toggle .icon-bar{
+  border-radius: 0px;
+  width: 30px;
+  height: 3px;
+}
+.navbar-toggle{
+  border-radius: 0px;
+}
+
 
 .quoteringen{
   background:#CE5B53;
