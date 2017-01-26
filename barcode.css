@@ -9,7 +9,9 @@
   display: block;
   margin: 20px auto;
 }
-
+.logolink:hover{
+  text-decoration: none;
+}
 .title, .biggest{
   font-family: beer;
   text-align: center;
@@ -39,7 +41,7 @@ p{
   text-shadow: none;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus  {
   color: white;
   background: #CE5B53;
 }
@@ -79,19 +81,30 @@ border: none;
   display: block;
   margin: auto;
 }
-.iconinfo{
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 30px;
+.icontegel{
+  margin-bottom: 40px;
 }
 
 .variabelelink{
-  color: white;
+  color: #CE5B53;
   text-decoration: none;
   font-weight: bold;
 }
 .variabelelink:hover{
   text-decoration: underline;
+  color: #CE5B53;
+}
+
+.subpage-title{
+  font-family: beer;
   color: white;
+}
+.subpage-title-bar{
+  background: #CE5B53;
+  margin-bottom: 30px;
+}
+
+.title-second{
+  text-align: left;
+  font-family: beer;
 }
